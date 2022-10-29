@@ -1,0 +1,99 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url(./MontserratAlternates-Bold.otf);
+  font-weight: 700;
+}
+.header {
+  height: 100vh;
+  background-image: url(bg.png);
+  background-size: cover;
+}
+.wrapper {
+    display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+.header__logo {
+  width: 69px;
+  height: 65px;
+  gap: 10px;
+}
+.header__text {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  width: 145px;
+  padding-left: 13px;
+}
+.header__button {
+  width: 397px;
+  height: 22px;
+  display: flex;
+  gap: 40px;
+  padding-left: 308px;
+}
+.button {
+  text-decoration: none;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+}
+.button:hover {
+  color: blueviolet;
+}
+.header__login {
+  width: 20px;
+  height: 19px;
+  padding-left: 152px;
+ fill: white;
+}
+.header__login :hover {
+ fill: blueviolet;
+}
+.header__text--biggest {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Montserrat Alternates";
+  font-size: 144px;
+  padding-top: 244px;
+}
+@media (max-width: 1111px) {
+  .header__logo {
+    padding-left: 30px;
+  }
+  .header__login {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 1074px) {
+    .header{
+    width: 200vh;  
+    }
+    .header__logo {
+    padding-left: 50px;
+  }
+  .header__login {
+    padding-right: 50px;
+  }
+  .header__login{
+    width: 40px;
+    height: 39px;
+  }
+.button{
+    font-size: 28px;
+}
+.header__text{
+    font-size: 28px;
+}
+}
+@media (max-width: 330px) {
+
+
+}
+ 
